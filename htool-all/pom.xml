@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.javaex</groupId>
+		<artifactId>htool</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>htool-all</artifactId>
+	<name>htool-all</name>
+	<description>htool工具集</description>
+	
+	<dependencies>
+		<dependency>
+			<groupId>cn.javaex</groupId>
+			<artifactId>htool-core</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.javaex</groupId>
+			<artifactId>htool-cache</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.javaex</groupId>
+			<artifactId>htool-crypto</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.javaex</groupId>
+			<artifactId>htool-http</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.javaex</groupId>
+			<artifactId>htool-picture</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
