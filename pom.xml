@@ -39,12 +39,12 @@
 		</developer>
 	</developers>
 	<issueManagement>
-		<url>https://github.com/chenniqing/fileupload/issues</url>
+		<url>https://github.com/chenniqing/htool/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 	<scm>
-		<url>https://github.com/chenniqing/fileupload</url>
-		<connection>scm:git:https://github.com/chenniqing/fileupload.git</connection>
+		<url>https://github.com/chenniqing/htool</url>
+		<connection>scm:git:https://github.com/chenniqing/htool.git</connection>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>
